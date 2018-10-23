@@ -1,0 +1,400 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9311495105,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.applyHook(Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 5979321838,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.applyHook(Scenario)"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Verify the Registration process of USA",
+        "description": "",
+        "id": "hma;verify-the-registration-process-of-usa;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2192461530,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Click on Register Button",
+            "match": {
+              "location": "HMA.clickRegisterButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 490626946,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter first nameMeera",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Meera",
+                  "offset": 16
+                }
+              ],
+              "location": "HMA.enterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 262991725,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter last namePingle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pingle",
+                  "offset": 15
+                }
+              ],
+              "location": "HMA.enterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 396059947,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the emailtestUSA1userUSA1@yopmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testUSA1userUSA1@yopmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "HMA.enterEmailId(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2423559628,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select the USA Country1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 22
+                }
+              ],
+              "location": "HMA.selectUSAcountry(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 205798596,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the PasswordAress123$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aress123$",
+                  "offset": 18
+                }
+              ],
+              "location": "HMA.enterPassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212879583,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter the Confirm PasswordAress123$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aress123$",
+                  "offset": 26
+                }
+              ],
+              "location": "HMA.enterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47973542,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Click on Checkbox",
+            "match": {
+              "location": "HMA.clickCheckBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 65596148,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Click on Register Button1",
+            "match": {
+              "location": "HMA.clickRegisterButton1()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 50563288044,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Verify the success message",
+            "match": {
+              "location": "HMA.verifySuccess()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 94,
+        "name": "Verify the Registration process of UK",
+        "description": "",
+        "id": "hma;verify-the-registration-process-of-uk;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 336074578,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "Click on Register Button",
+            "match": {
+              "location": "HMA.clickRegisterButton()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 228214131,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "Enter first nameHarsh",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harsh",
+                  "offset": 16
+                }
+              ],
+              "location": "HMA.enterFirstName(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 248624808,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "Enter last namePingle",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pingle",
+                  "offset": 15
+                }
+              ],
+              "location": "HMA.enterLastName(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 279349067,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "Enter the emailtestUKuserUK@yopmail.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "testUKuserUK@yopmail.com",
+                  "offset": 15
+                }
+              ],
+              "location": "HMA.enterEmailId(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2256126266,
+              "status": "passed"
+            },
+            "line": 86,
+            "name": "Select the UK Country2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 21
+                }
+              ],
+              "location": "HMA.selectUKcountry(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235377865,
+              "status": "passed"
+            },
+            "line": 87,
+            "name": "Enter the PasswordAress123$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aress123$",
+                  "offset": 18
+                }
+              ],
+              "location": "HMA.enterPassword(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 207857657,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Enter the Confirm PasswordAress123$",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Aress123$",
+                  "offset": 26
+                }
+              ],
+              "location": "HMA.enterConfirmPassword(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56452893,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Click on Checkbox",
+            "match": {
+              "location": "HMA.clickCheckBox()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6709145211,
+              "status": "passed"
+            },
+            "line": 90,
+            "name": "Click on Register Button1",
+            "match": {
+              "location": "HMA.clickRegisterButton1()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 79,
+            "name": "@Test1"
+          }
+        ]
+      }
+    ],
+    "name": "HMA",
+    "description": "",
+    "id": "hma",
+    "keyword": "Feature",
+    "uri": "HMA.feature"
+  }
+]

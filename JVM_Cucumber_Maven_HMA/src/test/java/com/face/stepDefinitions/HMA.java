@@ -80,6 +80,30 @@ public class HMA {
 		Assert.assertTrue(objHMAPage.clickRegister1());	
 	}
 	
+	@Then("^Verify the success message$")
+	public void verifySuccess() throws AWTException  
+	{
+		Assert.assertTrue(objHMAPage.verifySuccessMessage());	
+	}
+	//--------------------------------------------Activation-------------------------------------------------//
+	
+	@Then("^Select the Monthly package for BLOOD PRESSURE MONITORING SERVICE$")
+	public void monthlyPackage() throws AWTException  
+	{
+		Assert.assertTrue(objHMAPage.monthlyPackageBP());	
+	}
+	
+	@Then("^Select the Quaterly package for BLOOD PRESSURE MONITORING SERVICE$")
+	public void quaterlyPackage() throws AWTException  
+	{
+		Assert.assertTrue(objHMAPage.quaterlyPackageBP());	
+	}
+	
+	@Then("^Select the Yearly package for BLOOD PRESSURE MONITORING SERVICE$")
+	public void yearlyPackage() throws AWTException  
+	{
+		Assert.assertTrue(objHMAPage.yearlyPackageBP());	
+	}
 	//--------------------------------------------Login------------------------------------------------------//
 
 	@Given("^Enter Registered Email on Login form(.*)$")
@@ -89,7 +113,7 @@ public class HMA {
 	}
 	
 	@Then("^Enter Password on Login form(.*)$")
-	public void enterPasswordLogin(String passwordLogin) throws AWTException  
+	public void enterPasswordLogin(String passwordLogin) throws AWTException, InterruptedException  
 	{
 		Assert.assertTrue(objHMAPage.enterpasswordLogin(passwordLogin));	
 	}
@@ -100,12 +124,36 @@ public class HMA {
 		Assert.assertTrue(objHMAPage.clickLoginButton());	
 	}
 	
+	@Then("^Terms and Conditions Pop-up$")
+	public void clickTermsCondition() throws AWTException, InterruptedException  
+	{
+		Assert.assertTrue(objHMAPage.clickTermsConditionPopUp());	
+	}
+	
+	@Then("^Click on Agree Button$")
+	public void clickAgree() throws AWTException, InterruptedException  
+	{
+		Assert.assertTrue(objHMAPage.clickAgreeButton());	
+	}
+	
 	//---------------------------------------Personal Info-----------------------------------------------------//
+	
+	@Then("^Click on Edit profile$")
+	public void editProfile()
+	{
+		Assert.assertTrue(objHMAPage.editProfileInfo());	
+	}
 	
 	@Then("^Upload the Profile Image$")
 	public void uploadPhoto()
 	{
 		Assert.assertTrue(objHMAPage.uploadPhotoTo());	
+	}
+	
+	@Then("^Enter the first name in Basic Info section(.*)$")
+	public void firstNameBasic(String firstName) throws AWTException, InterruptedException
+	{
+		Assert.assertTrue(objHMAPage.firstNameBasicInfo(firstName));	
 	}
 	
 }

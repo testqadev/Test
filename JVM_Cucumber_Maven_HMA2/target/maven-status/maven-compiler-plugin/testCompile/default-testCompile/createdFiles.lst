@@ -1,0 +1,3 @@
+com\face\stepDefinitions\HMA.class
+com\testRunners\RunnerTest.class
+com\face\pageFactory\HMAPage.class

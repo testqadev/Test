@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="82.709275">
+<testcase classname="HMA" name="Verify the Registration process of USA" time="66.172731">
+<system-out><![CDATA[Given Click on Register Button..............................................passed
+Then Enter first nameMeera..................................................passed
+Then Enter last namePingle..................................................passed
+Then Enter the emailtestUSA1userUSA1@yopmail.com............................passed
+Then Select the USA Country1................................................passed
+Then Enter the PasswordAress123$............................................passed
+Then Enter the Confirm PasswordAress123$....................................passed
+Then Click on Checkbox......................................................passed
+Then Click on Register Button1..............................................passed
+Then Verify the success message.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HMA" name="Verify the Registration process of UK" time="16.536544">
+<system-out><![CDATA[Given Click on Register Button..............................................passed
+Then Enter first nameHarsh..................................................passed
+Then Enter last namePingle..................................................passed
+Then Enter the emailtestUKuserUK@yopmail.com................................passed
+Then Select the UK Country2.................................................passed
+Then Enter the PasswordAress123$............................................passed
+Then Enter the Confirm PasswordAress123$....................................passed
+Then Click on Checkbox......................................................passed
+Then Click on Register Button1..............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

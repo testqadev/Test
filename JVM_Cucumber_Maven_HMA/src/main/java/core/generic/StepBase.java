@@ -58,6 +58,7 @@ public class StepBase
 				driver.manage().timeouts().pageLoadTimeout(90, TimeUnit.SECONDS);
 				driver.get(objConfig.getProperty("test.browser.url"));
 			}
+			
 		}
 		catch(Exception exception)
 		{
